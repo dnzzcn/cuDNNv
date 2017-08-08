@@ -25,5 +25,3 @@ rm -f /usr/local/cuda-8.0/lib64/libcudnn_static.a
 cp -P packages/cudnn5/include/cudnn.h /usr/include
 cp -P packages/cudnn5/lib64/libcudnn* /usr/lib/x86_64-linux-gnu/
 chmod a+r /usr/lib/x86_64-linux-gnu/libcudnn*
-
-# printf "\nSwitched to cuDNN v5.1\n"
