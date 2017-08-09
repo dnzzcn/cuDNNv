@@ -1,2 +1,0 @@
-# cuDNNv
-cuDNN Version Switcher
