@@ -28,6 +28,7 @@ class App:
                          command=self.cuDNN7)
     self.v7.pack(side=LEFT)
 
+    master.minsize(width=240, height=25)
 
   def cuDNN5(self):
     subprocess.call(['./cuDNN5.sh'])
@@ -40,5 +41,6 @@ class App:
 
 root = Tk()
 root.wm_title("cuDNN Version Switcher")
+root.resizable(width=False, height=False)
 app = App(root)
 root.mainloop()
