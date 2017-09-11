@@ -2,7 +2,7 @@
 
 rm -f /usr/include/cudnn.h
 rm -f /usr/lib/x86_64-linux-gnu/*libcudnn*
-rm -f /usr/local/cuda-8.0/lib64/*libcudnn*
+rm -f /usr/local/cuda-*/lib64/*libcudnn*
 
 
 cp -P packages/cudnn/include/cudnn.h /usr/include
