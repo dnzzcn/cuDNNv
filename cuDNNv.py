@@ -104,7 +104,7 @@ switchText = ""
 switch = Label(root, text=switchText)
 switch.pack()
 
-devnoteMessage = "\ncuDNNv v0.2"
+devnoteMessage = "\ncuDNNv v0.3"
 devnote = Label(root, text=devnoteMessage)
 devnote.pack()
 
