@@ -27,4 +27,4 @@ cuDNNv is a simple script to install cuDNN to your system or to change the versi
    python cuDNNv.py &
    ```
    
-   You can choose the version you want to install/switch to by clicking the corresponding button. You can also use it to clean install the version you are already using to make sure it is working properly.
+   You can choose the version you want to install/switch to by clicking the corresponding button. You can also use cuDNNv to clean install the version you are already using to make sure it is working properly.
