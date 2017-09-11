@@ -19,7 +19,7 @@ cuDNNv is a simple script to install cuDNN to your system or to change the versi
 
 3. Download the cuDNN version you want to use from [NVIDIA Developer page](https://developer.nvidia.com/rdp/form/cudnn-download-survey). You have to login to your account, or create one if you don't already have, in order to download the package. Please make sure that you download the package that is suitable with the CUDA version you use, because it is not being checked by cuDNNv.
 
-4. Move the .tgz file you downloaded from NVIDIA Developers page to 'cuDNNv/packages' folder (or to 'cuDNNv-master/packages' folder, if you downloaded the repository as a ZIP file).
+4. Move the .tgz file you downloaded from NVIDIA Developer page to 'cuDNNv/packages' folder (or to 'cuDNNv-master/packages' folder, if you downloaded the repository as a ZIP file).
 
 5. Finally, you can run the script by running the following command inside the cuDNNv directory:
 
