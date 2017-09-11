@@ -2,6 +2,7 @@
 
 import os.path
 import subprocess
+import glob
 from Tkinter import *
 
 class App:
@@ -32,14 +33,15 @@ class App:
     master.minsize(width=280, height=40)
 
   def cuDNN5(self):
-    v5 = os.path.isfile("packages/cudnn-8.0-linux-x64-v5.1.tgz")
-    if v5:
+    v5 = glob.glob("packages/*v5.1.tgz")
+    c5 = len(v5)
+    if c5:
         switchText = "Switching.."
         switch.config(text = switchText)
         switch.pack()
 
         subprocess.call(['mkdir', 'packages/cudnn'])
-        subprocess.call(['tar', 'xf', 'packages/cudnn-8.0-linux-x64-v5.1.tgz', 
+        subprocess.call(['tar', 'xf', v5[0], 
                          '-C', 'packages/cudnn', '--strip-components', '1'])
         subprocess.call(['./switch.sh'])
 
@@ -52,14 +54,15 @@ class App:
         switch.pack()
 
   def cuDNN6(self):
-    v6 = os.path.isfile("packages/cudnn-8.0-linux-x64-v6.0.tgz")
-    if v6:
+    v6 = glob.glob("packages/*v6.0.tgz")
+    c6 = len(v6)
+    if c6:
         switchText = "Switching.."
         switch.config(text = switchText)
         switch.pack()
 
         subprocess.call(['mkdir', 'packages/cudnn'])
-        subprocess.call(['tar', 'xf', 'packages/cudnn-8.0-linux-x64-v6.0.tgz', 
+        subprocess.call(['tar', 'xf', v6[0], 
                          '-C', 'packages/cudnn', '--strip-components', '1'])
         subprocess.call(['./switch.sh'])
 
@@ -72,14 +75,15 @@ class App:
         switch.pack()
 
   def cuDNN7(self):
-    v7 = os.path.isfile("packages/cudnn-8.0-linux-x64-v7.tgz")
-    if v7:
+    v7 = glob.glob("packages/*v7.tgz")
+    c7 = len(v7)
+    if c7:
         switchText = "Switching.."
         switch.config(text = switchText)
         switch.pack()
 
         subprocess.call(['mkdir', 'packages/cudnn'])
-        subprocess.call(['tar', 'xf', 'packages/cudnn-8.0-linux-x64-v7.tgz', 
+        subprocess.call(['tar', 'xf', v7[0], 
                          '-C', 'packages/cudnn', '--strip-components', '1'])
         subprocess.call(['./switch.sh'])
 
@@ -105,4 +109,3 @@ devnote = Label(root, text=devnoteMessage)
 devnote.pack()
 
 root.mainloop()
-
