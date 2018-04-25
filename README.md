@@ -1,6 +1,6 @@
 # cuDNNv: cuDNN Version Switcher (v0.3)
 
-cuDNNv is a simple script to install cuDNN to your system or to change the version of the existing cuDNN to an older/a newer version. Although the script is super simple, it saves you quite a bit of time by reducing a minute long work to a single button click. It especially becomes a life saver if you're working with multiple frameworks that use different versions of cuDNN. cuDNNv currently works only on 64-bit Linux with Python 2.7 and supports cuDNN versions 5.1, 6.0 and 7.0.
+cuDNNv is a simple script to install cuDNN to your system or to change the version of the existing cuDNN to an older/a newer version. Although the script is super simple, it saves you quite a bit of time by reducing a minute long work to a single button click. It especially becomes a life saver if you're working with multiple frameworks that use different versions of cuDNN. cuDNNv currently works only on 64-bit Linux with Python 2.7 and supports cuDNN versions 5, 6 and 7.
 
 ## Using cuDNNv
 
