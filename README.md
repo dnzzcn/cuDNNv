@@ -25,7 +25,7 @@ cuDNNv is a simple script to install cuDNN to your system or to change the versi
    
 ## Permission Error
 
-   This error might be encountered if files of a cuDNN are created with root privileges in an earlier installment. If you happen to have this error, you need to run cuDNNv with root privileges too.
+   This error might be encountered if files of a cuDNN version are created with root privileges in an earlier installment. If you happen to have this error, you need to run cuDNNv with root privileges too.
    
    ``` 
    sudo ./cuDNNv &
