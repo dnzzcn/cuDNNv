@@ -1,4 +1,4 @@
-# cuDNNv: cuDNN Version Switcher (v0.3)
+# cuDNNv: cuDNN Version Switcher (v0.4)
 
 cuDNNv is a simple script to install cuDNN to your system or to change the version of the existing cuDNN to an older/a newer version. Although the script is super simple, it saves you quite a bit of time by reducing a minute long work to a single button click. It especially becomes a life saver if you're working with multiple frameworks that use different versions of cuDNN. cuDNNv currently works only on 64-bit Linux for any cuDNN version.
 
@@ -17,8 +17,16 @@ cuDNNv is a simple script to install cuDNN to your system or to change the versi
 
 5. Finally, you can run the script by running the following command inside the cuDNNv directory:
 
-   ``` python
-   ./cuDNNv.py &
+   ``` 
+   ./cuDNNv &
    ```
    
-   You can choose the version you want to install/switch to from the dropdown menu and then by clicking the switch button. You can also use cuDNNv to clean install the version you are already using to make sure it is working properly.
+   You can choose the version you want to install/switch to from the dropdown menu and then click the switch button. You can also use cuDNNv to clean install the version you are already using to make sure it is working properly.
+   
+## Permission Error
+
+   This error might be encountered if files of a cuDNN are created with root privileges in an earlier installment. If you happen to have this error, you need to run cuDNNv with root privileges too.
+   
+   ``` 
+   sudo ./cuDNNv &
+   ```
