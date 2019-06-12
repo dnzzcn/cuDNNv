@@ -22,6 +22,7 @@ cuDNNv is a simple script to install cuDNN to your system or to change the versi
    ```
    
    You can choose the version you want to install/switch to from the dropdown menu and then click the switch button. You can also use cuDNNv to clean install the version you are already using to make sure it is working properly.
+   The source code is included in 'src' folder in the repository.
    
 ## Permission Error
 
