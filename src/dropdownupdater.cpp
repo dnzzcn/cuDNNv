@@ -13,7 +13,6 @@ void DropdownUpdater::run()
 void DropdownUpdater::retrieveVersions() {
 
     QString sourcePath = "packages/";
-    QString targetPath = "/home/deniz/arge/build/build-cuDNNv-Desktop_Qt_5_10_0_GCC_64bit-Debug/target/";
 
     QDir sourceDir(sourcePath);
 
